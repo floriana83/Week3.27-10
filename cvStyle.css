@@ -1,0 +1,55 @@
+
+/* Identity */
+header {
+    background-color: lightskyblue;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+/* body  */
+
+
+body {
+    padding: 25px;
+    color: black;
+    font-size: 25px;
+    
+}
+
+/* Section Competenze&Hobbie */
+.wrapper {
+    font-size: 20px;
+    padding: 20px;
+    border-style: solid;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+.wrapperDue {
+    font-size: 20px;
+    padding: 20px;
+    border-style: solid;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* modalitù dark */
+.enableDarkMode {
+    position: absolute;
+    background-color: black;
+    top: 80px;
+    right: 80px;
+}
+.darkMode {
+    background-color: rgb(46, 46, 47); 
+    color: white;
+}
+.enableLightMode {
+    position: right;
+}
+.lightMode {
+    background-color: lightgray; 
+    color: rgb(16, 153, 57);
+} 
