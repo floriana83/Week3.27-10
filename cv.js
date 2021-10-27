@@ -5,19 +5,13 @@ Dark.addEventListener(
     document.body.classList.toggle("darkMode");});
 
 
-    // const Lux = document.querySelector("enableLightMode");
-    // Lux.addEventListener(
-    //   "click",
-    //   () => {
-    //     const Lux = document.querySelector("button");
-    //     document.body.classList.toggle("lightMode")});
-
-const lightModeBtn = document.querySelector(".enableLightMode");
-lightModeBtn.addEventListener(
+const light = document.querySelector("#enableLightMode");
+light.addEventListener(
     "click", () => {
-   document.body.classList.toggle("lightMode");
+      const lightbt = document.querySelector(".wrapperDue");
+      lightbt.classList.toggle("lightMode");
     }
 );
 
-const allP = document.getElementsByTagName("p");
-console.log(allP); 
+const allp = document.getElementsByTagName("p");
+console.log(allp); 
